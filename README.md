@@ -1,5 +1,5 @@
 # SwiftPropertyWrappers
-Property wrappers in Swift are a feature that allows you to add a ayer of separation between the code that manages the storage, access, and modification of a property and the code that defines the property itself.
+Property wrappers in Swift are a feature that allows you to add a layer of separation between the code that manages the storage, access, and modification of a property and the code that defines the property itself.
 
 ### What are property wrappers?
 By encapsulating common behaviors and patterns into a property wrapper, you can reuse that logic across multiple properties and structures, making your code more readable and maintainable.
