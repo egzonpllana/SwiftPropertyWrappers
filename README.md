@@ -29,3 +29,28 @@ Useful for properties that shouldn't be updated too frequently.
 
 #### LogChanges
 Logs changes made to the wrapped properties, along with the file, function, and line number.
+
+#### Once
+This custom property wrapper ensures that a value is only set once.
+
+#### LowerCase
+This property wrapper ensures that a string is always stored in lowercase.
+
+#### Trimmed
+This property wrapper trims whitespace and newlines from a string.
+
+#### MainQueue
+This property wrapper enforces that the wrapped value is always accessed from the main queue.
+
+#### EnumCodable
+This property wrapper allows you to use enums with associated values in Codable structs.
+
+#### Percent
+This property wrapper enforces that a number is within the 0...100 range, representing a percentage.
+
+#### Multiplying
+This property wrapper multiplies the wrapped value with a given factor.
+
+#### Note
+Please let me know if you have any other useful PropertyWrapper and I can add in the list.
+Let's connect on linked in: https://www.linkedin.com/feed/update/urn:li:activity:7055966309351661568/
