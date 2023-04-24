@@ -11,7 +11,7 @@ By encapsulating common behaviors and patterns into a property wrapper, you can 
 
 #### UserDefaults
 Use to abstract away the boilerplate code for reading and writing to UserDefaults.\
-[View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Atomic.swift)
+[View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/UserDefaultsWrapper.swift)
 
 #### OmitNil
 Use in specific scenarios where you need more control over the encoding and decoding process.\
