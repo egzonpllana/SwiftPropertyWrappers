@@ -60,7 +60,8 @@ func testAtomicChange() {
         // Validate the result
         let expectedValue = iterations * numberOfThreads
         assert(counter.value == expectedValue, "Expected value: \(expectedValue), Actual value: \(counter.value)")
+        print("Test passed. Expected value: \(expectedValue), Actual value: \(counter.value)")
+
 }
 
-        print("Test passed. Expected value: \(expectedValue), Actual value: \(counter.value)")
     }
