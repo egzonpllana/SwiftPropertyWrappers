@@ -10,59 +10,59 @@ By encapsulating common behaviors and patterns into a property wrapper, you can 
 - Consistency: Using property wrappers can help you enforce consistent patterns and behaviors across your codebase, making it easier for other developers to understand and maintain your code.
 
 #### UserDefaults
-Use to abstract away the boilerplate code for reading and writing to UserDefaults.
+Use to abstract away the boilerplate code for reading and writing to UserDefaults.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Atomic.swift)
 
 #### OmitNil
-Use in specific scenarios where you need more control over the encoding and decoding process.
+Use in specific scenarios where you need more control over the encoding and decoding process.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/OmitNil.swift)
 
 #### Clamping
-Use to enforce a value range for a property. When the wrapped property is set, the value will be clamped to the specified range, ensuring that it stays within the defined bounds.
+Use to enforce a value range for a property. When the wrapped property is set, the value will be clamped to the specified range, ensuring that it stays within the defined bounds.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Clamping.swift)
 
 #### Observable
-Use to create observable properties that notify listeners when their value changes.
+Use to create observable properties that notify listeners when their value changes.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Observable.swift)
 
 #### Atomic
-Use to create thread-safe properties that can only be accessed and modified atomically.
+Use to create thread-safe properties that can only be accessed and modified atomically.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Atomic.swift)
 
 #### Throttled
-Useful for properties that shouldn't be updated too frequently.
+Useful for properties that shouldn't be updated too frequently.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Throttled.swift)
 
 #### LogChanges
-Logs changes made to the wrapped properties, along with the file, function, and line number.
+Logs changes made to the wrapped properties, along with the file, function, and line number.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/LogChanges.swift)
 
 #### Once
-This custom property wrapper ensures that a value is only set once.
+This custom property wrapper ensures that a value is only set once.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Once.swift)
 
 #### LowerCase
-This property wrapper ensures that a string is always stored in lowercase.
+This property wrapper ensures that a string is always stored in lowercase.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/LowerCase.swift)
 
 #### Trimmed
-This property wrapper trims whitespace and newlines from a string.
+This property wrapper trims whitespace and newlines from a string.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Trimmed.swift)
 
 #### MainQueue
-This property wrapper enforces that the wrapped value is always accessed from the main queue.
+This property wrapper enforces that the wrapped value is always accessed from the main queue.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/MainQueue.swift)
 
 #### EnumCodable
-This property wrapper allows you to use enums with associated values in Codable structs.
+This property wrapper allows you to use enums with associated values in Codable structs.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/EnumCodable.swift)
 
 #### Percent
-This property wrapper enforces that a number is within the 0...100 range, representing a percentage.
+This property wrapper enforces that a number is within the 0...100 range, representing a percentage.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Percent.swift)
 
 #### Multiplying
-This property wrapper multiplies the wrapped value with a given factor.
+This property wrapper multiplies the wrapped value with a given factor.\
 [View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Multiplying.swift)
 
 #### Note
