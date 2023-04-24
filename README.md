@@ -67,4 +67,4 @@ This property wrapper multiplies the wrapped value with a given factor.\
 
 #### Note
 Please let me know if you have any other useful PropertyWrapper and I can add in the list.\
-Let's connect on linked in: [Egzon Pllana](https://www.linkedin.com/feed/update/urn:li:activity:7055966309351661568).
+Let's connect on LinkedIn: [Egzon Pllana](https://www.linkedin.com/feed/update/urn:li:activity:7055966309351661568).
