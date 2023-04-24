@@ -63,7 +63,7 @@ This property wrapper enforces that a number is within the 0...100 range, repres
 
 #### Multiplying
 This property wrapper multiplies the wrapped value with a given factor.\
-[View source file](https://github.com/egzonpllana/SwiftPropertyWrappers/blob/main/Sources/Multiplying.swift)
+[View source file](https://www.linkedin.com/in/egzon-pllana/)
 
 #### Note
 Please let me know if you have any other useful PropertyWrapper and I can add in the list.\
